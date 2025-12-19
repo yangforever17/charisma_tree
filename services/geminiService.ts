@@ -15,6 +15,6 @@ export const generateLuxuryWish = async (): Promise<string> => {
     return response.text?.trim() || "Elegance in every moment. Merry Christmas.";
   } catch (error) {
     console.error("Gemini generation error:", error);
-    return "Golden moments, timeless memories.";
+    return "Peace and well-being, year after year. To pp.";
   }
 };
