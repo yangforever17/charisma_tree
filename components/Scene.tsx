@@ -23,7 +23,7 @@ const Scene: React.FC = () => {
       <Suspense fallback={null}>
         <group position={[0, -1, 0]}>
             <LuxuriousTree />
-            <GoldDust count={300} />
+            <GoldDust count={10000} />
             
             {/* Floor Reflection */}
             <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -2, 0]} receiveShadow>
